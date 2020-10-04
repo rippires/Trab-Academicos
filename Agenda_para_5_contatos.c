@@ -33,7 +33,7 @@ int main(){
 				if(contador<=4){
 					system("cls");
 					printf("NOVO CADASTRO:\n");
-					printf("Código: %d\n", contador);
+					printf("CÃ³digo: %d\n", contador);
 					printf("Digite o Nome do Cliente: \n");
 					fgets(cad[contador].nome, 50, stdin);
 					fflush(stdin);
@@ -64,7 +64,7 @@ int main(){
 						printf("CADASTROS\n");
 				
 						for(i=0; i<contador;i++){
-						printf("Código: %d\n", i);
+						printf("CÃ³digo: %d\n", i);
 						printf("Nome: %s", cad[i].nome);
 						printf("Telefone: %s", cad[i].telefone);
 						printf("Email: %s\n", cad[i].email);
@@ -78,7 +78,7 @@ int main(){
 					system ("pause");
 					break;
 			default: 
-				printf("\nOpção Inválida\n");
+				printf("\nOpÃ§Ã£o InvÃ¡lida\n");
 				break;
 		}
 	}
