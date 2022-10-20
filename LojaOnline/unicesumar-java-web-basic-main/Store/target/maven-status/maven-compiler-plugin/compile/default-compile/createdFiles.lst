@@ -1,0 +1,5 @@
+br\com\store\models\User_.class
+br\com\store\beans\PortalBean.class
+br\com\store\repositories\UserRepository.class
+br\com\store\util\JPAUtil.class
+br\com\store\models\User.class
